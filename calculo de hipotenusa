@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+
+double catetoa, catetob, hipotenusa;
+		printf("qual e o cateto A?: ");
+			scanf("%lf",&catetoa);
+	
+printf("qual e o cateto B?: ");
+scanf("%lf",&catetob);
+	
+hipotenusa = sqrt( pow(catetoa, 2) + pow(catetob ,2) );
+printf("o resultado eh %lf",hipotenusa);
+	
+	return 0;	
+}
