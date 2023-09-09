@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+    int main(){
+    	
+        float distancia, litros, media;
+            printf("digite a distancia: ");
+        scanf("%f", &distancia);
+            printf("digite o total de litros gastos: ");
+        scanf("%f", &litros);
+
+        media = (distancia / litros);
+
+    printf("A media eh : %f",media);
+        return 0;
+    };
+    
